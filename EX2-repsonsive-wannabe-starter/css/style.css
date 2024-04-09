@@ -129,31 +129,41 @@ img {
  ************************************************/
 
  @media screen and (max-width: 768px) {
-    .lessons .col {
-        width: 50vw;
-       
-    }
-    .steps .col {
-        width: calc(100vw / 3);
-        
-    }
-    .why-us .col-left {
-        width: 40vw;
-    }
-    
-    .why-us .col-right {
-        width: 60vw;
-   
-    }
     .container {
-        width: 90%;
+        width: 100%;
         margin: 0 auto;
         padding: 0 20px;
     }
-    
-
 }
 
 @media screen and (max-width: 480px) {
+    .row {
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+    .lessons .col {
+        width: 80%;
+        padding: 3rem 0;
+    }
+    .steps .col {
+        width: 80%;
+        padding: 20px 0;
+    }
+    .why-us .col-left {
+        width: 80%;
+        padding: 20px 0;
+    }
+    
+    .why-us .col-right {
+        width: 80%;
+    }
+    .steps, .why-us {
+        margin: 0;
+        padding: 3rem 0;
+    }
+    .why-us {
+        background-color: rgb(30, 30, 30);
+    }
 
 }
