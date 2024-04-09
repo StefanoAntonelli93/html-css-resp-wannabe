@@ -153,27 +153,25 @@
  @media screen and (max-width: 480px) {
      .row {
          flex-direction: column;
-         gap: 20px;
          align-items: center;
      }
      .lessons .col {
-         width: 80%;
+         width: 100%;
          padding: 3rem 0;
      }
      .steps .col {
-         width: 80%;
+         width: 100%;
          padding: 20px 0;
      }
      .why-us .col-left {
-         width: 80%;
+         width: 100%;
          padding: 20px 0;
      }
      
      .why-us .col-right {
-         width: 80%;
+         width: 100%;
      }
      .steps, .why-us {
-         margin: 0;
          padding: 3rem 0;
      }
      .why-us {
